@@ -1,6 +1,8 @@
-# Jobby App - Job Search Platform
+# 💼 Jobby App - Job Search Platform
 
-A modern React-based job search application with advanced filtering, detailed job views, and secure authentication.
+A modern, responsive job search application built with React that provides users with an intuitive interface to discover and explore career opportunities. This project features secure JWT authentication, advanced filtering capabilities, and comprehensive job details with similar job recommendations.
+
+The application demonstrates professional React development practices including component-based architecture, protected routing, responsive design, and efficient state management. It showcases a complete job search platform with real-world features like employment type filtering, salary range selection, and detailed job insights.
 
 ## 🚀 Features
 
@@ -58,3 +60,12 @@ npm install
 
 # Start development server
 npm start
+```
+
+## 🏗️ Project Structure
+<img width="749" height="489" alt="image" src="https://github.com/user-attachments/assets/75b8e03f-c162-40f8-adf2-c68652e7f973" />
+
+### 🔐 Authentication
+All routes (except /login) are protected and require a valid JWT token stored in cookies. The application automatically handles token validation and redirects to login when necessary.
+
+
