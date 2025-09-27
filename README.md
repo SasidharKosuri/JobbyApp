@@ -4,25 +4,19 @@ A modern, responsive job search application built with React that provides users
 
 The application demonstrates professional React development practices including component-based architecture, protected routing, responsive design, and efficient state management. It showcases a complete job search platform with real-world features like employment type filtering, salary range selection, and detailed job insights.
 
+---
+
 ## 🚀 Features
+- ✅ User Authentication with JWT Tokens
+- ✅ Advanced Job Filtering by Employment Type and Salary
+- ✅ Comprehensive Job Details with Company Profiles
+- ✅ Similar Job Recommendations
+- ✅ Responsive Design for Mobile and Desktop
+- ✅ Protected Routes and Secure Access
+- ✅ Real-time Search Functionality
+- ✅ Skills Visualization and Company Insights
 
-### Job Search & Filtering
-- Advanced filters by employment type (Full Time, Part Time, Freelance, Internship)
-- Salary range filtering (10 LPA to 40 LPA and above)
-- Real-time search functionality
-- Combined filter application
-
-### Job Details & Insights
-- Comprehensive job information with company profiles
-- Required skills visualization
-- Company culture and work environment details
-- Similar job recommendations
-
-### User Experience
-- Secure JWT-based authentication
-- Responsive mobile-first design
-- Protected routes for authenticated pages
-- Loading states and error handling
+---
 
 ## 🛠️ Tech Stack
 
@@ -65,7 +59,51 @@ npm start
 ## 🏗️ Project Structure
 <img width="749" height="489" alt="image" src="https://github.com/user-attachments/assets/75b8e03f-c162-40f8-adf2-c68652e7f973" />
 
-### 🔐 Authentication
+## 🔐 Authentication
 All routes (except /login) are protected and require a valid JWT token stored in cookies. The application automatically handles token validation and redirects to login when necessary.
+
+## 📑 Component Overview
+<img width="460" height="457" alt="image" src="https://github.com/user-attachments/assets/6021d526-dbb1-4456-8ff9-74a5d7f2a6e6" />
+
+## 🎯 Key Features Breakdown
+### Authentication & Security
+- JWT-based user authentication
+- Protected routes for authenticated access
+- Automatic token management with cookies
+- Secure API calls with authorization headers
+
+### Job Search & Filtering
+- Employment Type Filters: Full Time, Part Time, Freelance, Internship
+- Salary Range Filters: 10 LPA to 40 LPA and above
+- Real-time Search: Instant job search functionality
+- Combined Filtering: Multiple filter criteria support
+
+### Job Details & Insights
+- Company information and logos
+- Detailed job descriptions and requirements
+- Skills visualization with icons
+- Company culture and work environment
+- Similar job recommendations
+- Direct company website links
+
+### User Experience
+- Responsive design for all devices
+- Loading states and error handling
+- Intuitive navigation and clean UI
+- Mobile-optimized interface
+
+## 🌐 API Integration
+The application integrates with a job search API providing:
+- User authentication endpoints
+- Job listings with pagination
+- Detailed job information
+- User profile data
+
+## 📱 Responsive Design
+- Mobile: Optimized for screens < 768px
+- Tablet: Adaptive layout for 768px - 1024px
+- Desktop: Full-featured experience > 1024px
+
+
 
 
